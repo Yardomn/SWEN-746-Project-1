@@ -1,0 +1,14 @@
+id,number,title,user,state,created_at,closed_at,comments,open_duration_days
+445272082,155,werwerwe,AbhiAuto,closed,2019-05-17T05:35:56+00:00,2019-05-17T05:37:31+00:00,0,0
+439063110,152,Branches not updated,aarthimuthukrishnan,closed,2019-05-01T04:10:12+00:00,2019-05-01T04:10:57+00:00,0,0
+438572919,151,Branches not updated,aarthimuthukrishnan,closed,2019-04-30T01:41:36+00:00,2019-04-30T01:42:14+00:00,0,0
+438570057,150,testing,aarthimuthukrishnan,closed,2019-04-30T01:24:10+00:00,2019-04-30T01:24:14+00:00,0,0
+430803395,147,Branches not updated,aarthimuthukrishnan,closed,2019-04-09T07:12:28+00:00,2019-04-09T07:26:45+00:00,0,0
+430757524,146,Branches not updated,aarthimuthukrishnan,closed,2019-04-09T04:07:39+00:00,2019-04-09T04:09:13+00:00,0,0
+430755608,145,Branches not updated,aarthimuthukrishnan,closed,2019-04-09T03:58:55+00:00,2019-04-09T04:09:06+00:00,0,0
+430755143,144,Branches not updated,aarthimuthukrishnan,closed,2019-04-09T03:56:50+00:00,2019-04-09T03:58:11+00:00,0,0
+430755117,143,Branches not updated,aarthimuthukrishnan,closed,2019-04-09T03:56:46+00:00,2019-04-09T03:58:04+00:00,0,0
+430748621,142,Branches not updated,aarthimuthukrishnan,closed,2019-04-09T03:24:15+00:00,2019-04-09T03:24:44+00:00,0,0
+430747662,141,Branches not updated,aarthimuthukrishnan,closed,2019-04-09T03:19:38+00:00,2019-04-09T03:25:00+00:00,0,0
+428526268,140,Branches not updated,aarthimuthukrishnan,closed,2019-04-03T01:59:05+00:00,2019-04-03T01:59:37+00:00,0,0
+357747728,132,Example Test Issue,drobertson123,closed,2018-09-06T17:11:19+00:00,2019-10-21T12:56:20+00:00,0,409

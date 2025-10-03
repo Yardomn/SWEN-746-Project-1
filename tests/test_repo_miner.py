@@ -4,7 +4,7 @@ import os
 import pandas as pd
 import pytest
 from datetime import datetime, timedelta
-from src.repo_miner import fetch_commits
+from src.repo_miner import fetch_commits, fetch_issues
 
 # --- Helpers for dummy GitHub API objects ---
 
@@ -118,3 +118,42 @@ def test_fetch_commits_empty(monkeypatch):
     assert isinstance(df, pd.DataFrame)
     assert df.empty
     assert list(df.columns) == ["sha", "author", "email", "date", "message"]
+
+# --- Tests for fetch_issues ---
+def test_fetch_issues_excludes_prs(monkeypatch):
+    now = datetime.now()
+    issues = [
+        DummyIssue(1, 101, "Bug report", "alice", "open", now, None, 0),
+        DummyIssue(2, 102, "Feature request", "bob", "closed", now, now, 2, is_pr=True)  # should be skipped
+    ]
+    gh_instance._repo = DummyRepo([], issues)
+
+    df = fetch_issues("any/repo")
+    assert len(df) == 1
+    assert df.iloc[0]["title"] == "Bug report"
+    assert 102 not in df["number"].values
+
+
+def test_fetch_issues_dates_iso_format(monkeypatch):
+    created_at = datetime(2025, 9, 25, 12, 0, 0)
+    closed_at = datetime(2025, 9, 26, 14, 30, 0)
+    issues = [
+        DummyIssue(3, 201, "Date test", "charlie", "closed", created_at, closed_at, 5)
+    ]
+    gh_instance._repo = DummyRepo([], issues)
+
+    df = fetch_issues("any/repo")
+    assert df.iloc[0]["created_at"] == created_at.isoformat()
+    assert df.iloc[0]["closed_at"] == closed_at.isoformat()
+
+
+def test_fetch_issues_open_duration_days(monkeypatch):
+    created_at = datetime(2025, 9, 20)
+    closed_at = datetime(2025, 9, 25)
+    issues = [
+        DummyIssue(4, 301, "Duration test", "dana", "closed", created_at, closed_at, 1)
+    ]
+    gh_instance._repo = DummyRepo([], issues)
+
+    df = fetch_issues("any/repo")
+    assert df.iloc[0]["open_duration_days"] == 5
