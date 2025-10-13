@@ -1,0 +1,101 @@
+id,number,title,user,state,created_at,closed_at,comments,open_duration_days
+3503677984,7041,import Requests kicks me out of  python interpreter. (Python 3.14.0a5),diazerium,open,2025-10-10T16:36:45+00:00,,0,
+3489012650,7040,2.32.5 breaks passing custom SSL context,Tasssadar,open,2025-10-06T20:40:49+00:00,,0,
+3479023770,7039,Type hint needed,BrokenC1oud,closed,2025-10-02T21:35:39+00:00,2025-10-02T22:52:37+00:00,0,0.0
+3442209600,7035,Warnings Produced when Using a PEP 440 Local Version,bryanfraschetti,open,2025-09-22T18:32:11+00:00,,0,
+3436794218,7034,`NOTICE` file missing in wheel,radoering,open,2025-09-20T06:52:42+00:00,,1,
+3435765092,7033,requests with self signed certs broken,Phoobian,open,2025-09-19T20:09:46+00:00,,1,
+3429481127,7032,Add `simplejson` as an optional extra,beltekylevi,open,2025-09-18T09:25:31+00:00,,4,
+3416079708,7031,"AI Bug Analysis: ReadTimeout exception HTTPSConnectionPool(host='domain.com', port=443): Read timed out. (read timeout=10)",pinky2004-dot,closed,2025-09-15T02:56:19+00:00,2025-09-15T02:58:21+00:00,0,0.0
+3411449370,7029,"One request fails, but others don't; it also succeeds in terminal",ErikDB87,closed,2025-09-12T17:58:07+00:00,2025-09-12T17:58:14+00:00,1,0.0
+3409924820,7028,Tor request ,Tina-1300,closed,2025-09-12T10:30:18+00:00,2025-09-12T10:30:26+00:00,1,0.0
+3404571865,7027,@ziavai777,ziavai777,closed,2025-09-11T03:13:39+00:00,2025-09-11T03:34:15+00:00,3,0.0
+3392788824,7024,About request.Session,Jsy0220,closed,2025-09-08T06:22:59+00:00,2025-09-08T13:27:58+00:00,1,0.0
+3386785005,7022,create_db.py,ziavai777,closed,2025-09-05T08:49:52+00:00,2025-09-10T12:37:46+00:00,2,5.0
+3384528720,7021,@ziavai777,ziavai777,closed,2025-09-04T16:39:52+00:00,2025-09-04T17:47:43+00:00,2,0.0
+3381345201,7020,Reqable docs,ziavai777,closed,2025-09-03T21:23:25+00:00,2025-09-03T21:28:12+00:00,0,0.0
+3364056074,7018,Remove unused argument from _urllib3_request_context,Nate1729,closed,2025-08-28T17:03:31+00:00,2025-08-29T00:03:58+00:00,1,0.0
+3341146794,7016,recursive dependency involving fixture 'httpbin' detected when running tests,hramrach,open,2025-08-21T10:10:55+00:00,,5,
+3339239966,7014,Cannot use LWPCookiejar with requests,hramrach,open,2025-08-20T19:09:35+00:00,,4,
+3332878377,7013,v2.32.5 wheel file hash doesn't match between PyPI and CI,EpicWink,open,2025-08-19T04:52:57+00:00,,4,
+3295353684,7006,ModuleNotFoundError,idislikebluecheese,closed,2025-08-06T06:28:47+00:00,2025-08-06T11:28:33+00:00,1,0.0
+3292148459,7003,"When using RequestsCookieJar to set a cookie with an empty string ('') or 0 as the value, it cannot be retrieved properly afterward.",mengxunQAQ,open,2025-08-05T08:36:58+00:00,,0,
+3286622470,7002,Teat,VanyaKL1294,closed,2025-08-03T03:16:40+00:00,2025-08-03T03:16:48+00:00,0,0.0
+3280460825,7001,Dynamic import causing FileNotFoundError in shrinkwrapped applications after deployment of new versioon,jolumide,closed,2025-07-31T13:21:53+00:00,2025-07-31T15:05:25+00:00,1,0.0
+3239837825,6992,POST Multipart-Encoding does not work if the Content-Type header has been previously defined in the session,stephane-klein,open,2025-07-17T14:37:04+00:00,,2,
+3225565650,6990,`uri` field of digest authentication incorrectly filled when the URL contains semicolons in path,nicomem,open,2025-07-12T16:41:05+00:00,,0,
+3216515581,6988,ImportError: cannot import name 'to_bytes' from 'urllib3.util.util' with requests==2.32.4 and urllib3==2.5.0,zromick,closed,2025-07-09T16:31:31+00:00,2025-07-09T17:28:26+00:00,2,0.0
+3190536338,6981,`http_proxy` bug with `starlette.responses.RedirectResponse`,wzh1994,open,2025-07-01T03:18:36+00:00,,1,
+3188703198,6980,m3u8 video error,CdmStore,closed,2025-06-30T14:27:09+00:00,2025-06-30T14:27:17+00:00,1,0.0
+3186137191,6979,thread safe connection pool,eilon-shai,closed,2025-06-29T12:49:09+00:00,2025-06-29T12:49:17+00:00,1,0.0
+3183455273,6978,requests fails to connect even if trusted leaf certificate is provided when server's cert chain is incomplete,Ten0,open,2025-06-27T16:45:54+00:00,,8,
+3169944908,6977,"[Whitesource] requests-2.32.4 relys on urllib3-2.4.0, but urllib3-2.4.0 contains vulnerabilities",changuncle,closed,2025-06-24T01:44:33+00:00,2025-06-24T01:52:03+00:00,2,0.0
+3160495736,6976,Vulnerabilities reported in v2.32.4,gdlxn-ibm,closed,2025-06-19T14:13:15+00:00,2025-06-19T14:18:34+00:00,4,0.0
+3156800691,6975,Will requests 2.31.0 work with python 3.12?,idan3,closed,2025-06-18T13:03:12+00:00,2025-06-18T13:03:21+00:00,1,0.0
+3153964015,6974,SSL: CERTIFICATE_VERIFY_FAILED when using custom root CA in Windows,DonNeelin,closed,2025-06-17T15:43:55+00:00,2025-06-18T14:14:00+00:00,3,0.0
+3140908591,6969,Hostname mismatch with self signed cert on localhost,graydenshand,closed,2025-06-12T16:24:18+00:00,2025-06-13T14:21:48+00:00,3,0.0
+3131382148,6967,Can't update to newest release,MarqFJA87,closed,2025-06-09T20:16:46+00:00,2025-06-09T20:19:39+00:00,1,0.0
+3117600699,6964,CVE-2024-47081: Netrc credential leak in PSF requests library,corneliusroemer,closed,2025-06-04T12:06:09+00:00,2025-06-09T16:59:29+00:00,9,5.0
+3103121851,6957,Vulnerability identified with 2.32.3,ravi288392,closed,2025-05-30T12:36:51+00:00,2025-05-30T13:12:51+00:00,2,0.0
+3099420365,6956,"Urgent Help Required - ""Remote end closed connection without response"" error while using python Python 3.5.2 and request module 2.11.1",devanshu1994,closed,2025-05-29T07:10:55+00:00,2025-05-29T20:41:36+00:00,1,0.0
+3089003699,6954,class HeaderDict(rest_requests.packages.urllib3._collections.HTTPHeaderDict): AttributeError: module 'requests' has no attribute 'packages',Luke1606,closed,2025-05-25T03:14:28+00:00,2025-08-23T01:45:03+00:00,2,89.0
+3083150353,6952,New release,oleksandrkorzhenevskyi,closed,2025-05-22T12:07:14+00:00,2025-06-09T17:00:08+00:00,5,18.0
+3079446521,6950,digest  bug,cqwuxiaolong,closed,2025-05-21T08:48:27+00:00,2025-05-22T12:53:05+00:00,1,1.0
+3077733650,6949,QuickStart documentation error,trin5tensa,open,2025-05-20T17:23:29+00:00,,1,
+3052530154,6947,verify=False crashes on py3.13 on windows (FileNotFoundError),awoimbee,open,2025-05-09T15:32:07+00:00,,2,
+3045850311,6946,[Security] Medium Severity Vulnerability (CVE-2015-2296) in Requests v2.32.3,salmankadaya,closed,2025-05-07T12:45:50+00:00,2025-05-07T16:32:04+00:00,2,0.0
+3043475439,6945,`SSLCertVerificationError` when fetching `https://od.moi.gov.tw/api/v1/`,danny0838,closed,2025-05-06T17:03:58+00:00,2025-05-19T02:03:23+00:00,10,12.0
+3040883809,6944,Project Control / Ownership,rjschave,closed,2025-05-05T21:36:13+00:00,2025-05-05T21:50:21+00:00,2,0.0
+3040037398,6943,Error de red o descarga: ('Connection broken: IncompleteRead (ayuda no puedo descargar .zip de copernicus)  thanks!,Jesuslemus7,closed,2025-05-05T15:28:45+00:00,2025-05-05T15:29:20+00:00,0,0.0
+3039592617,6942,[Security] Medium Severity Vulnerability (CVE-2015-2296) in Requests v2.32.3,salmankadaya,closed,2025-05-05T12:58:07+00:00,2025-05-05T12:58:18+00:00,1,0.0
+3021925694,6938,Bug: URL parameters lost when hash fragment exists,wlyxxx,closed,2025-04-26T14:14:07+00:00,2025-04-27T02:15:50+00:00,1,0.0
+3011843632,6935,tests: add trailing slashes to mount to match docs recommendation?,allrob23,closed,2025-04-22T18:39:58+00:00,2025-05-03T16:39:15+00:00,2,10.0
+2990503801,6934,Test regressions with urllib3 2.4.0 on Python 3.13,musicinmybrain,closed,2025-04-12T14:32:06+00:00,2025-06-09T17:02:40+00:00,4,58.0
+2988095433,6933,Next release,ShrinidhiRao15,closed,2025-04-11T09:26:05+00:00,2025-04-11T11:17:57+00:00,1,0.0
+2988014915,6932,[Query] Is there any plan to release out a new version of requests lib in 2025?,forrestxia,closed,2025-04-11T08:53:54+00:00,2025-04-11T08:54:07+00:00,1,0.0
+2987624777,6931,Deadlock with geaddrinfo(),antonpetrov145,closed,2025-04-11T05:54:21+00:00,2025-04-12T12:59:59+00:00,5,1.0
+2980380899,6930,Not able to connect anymore,ErikSabel,closed,2025-04-08T16:47:56+00:00,2025-04-08T17:22:52+00:00,1,0.0
+2973457928,6928,Python 3.13: an unexpected `Authorization` header because of NETRC file,yermulnik,open,2025-04-04T22:09:06+00:00,,9,
+2951389967,6922,"`proxies=None` seem to be ""overridden"" by env vars even on when specifed on the individual requests",calestyo,closed,2025-03-27T03:31:58+00:00,2025-03-27T13:31:57+00:00,1,0.0
+2944087152,6921,Implement Happy Eyeballs?,brianjmurrell,closed,2025-03-24T18:12:38+00:00,2025-03-24T18:12:50+00:00,1,0.0
+2937693990,6917,Incorrect Content-Length header with StringIO body,mgraczyk,open,2025-03-21T08:39:21+00:00,,5,
+2928848301,6915,HTTPDigestAuth add optional Realm parameter to the authentication,deviker2,closed,2025-03-18T15:04:14+00:00,2025-03-18T15:04:25+00:00,1,0.0
+2926001899,6914,The docs say raise_for_status() returns the Response when status is 200. It does not do that.,coredumperror,closed,2025-03-17T18:16:28+00:00,2025-03-17T20:43:51+00:00,5,0.0
+2913504309,6912,asyncio,JiuCai66666,closed,2025-03-12T10:38:43+00:00,2025-03-12T10:38:53+00:00,1,0.0
+2908631188,6911,Enforce Latest Stable urllib3 Dependency in Requests,gaikwadabhishek,closed,2025-03-10T23:12:23+00:00,2025-03-11T00:31:56+00:00,3,0.0
+2899955301,6910,"Version 2.32.3 takes a long time for ""connectionpool:Starting""",florianhitz,open,2025-03-06T10:09:30+00:00,,2,
+2883583397,6908,requests.exceptions.SSLError,zemelLeong,closed,2025-02-27T06:38:54+00:00,2025-03-13T09:34:12+00:00,2,14.0
+2873368957,6906,"Improve ""import requests"" time by delaying ssl context preload",gregory-shklover,closed,2025-02-23T18:11:10+00:00,2025-02-23T18:11:19+00:00,1,0.0
+2868741953,6905,Support for Python 3.13 compatibility,geethu910,closed,2025-02-21T11:17:01+00:00,2025-03-03T05:24:43+00:00,3,9.0
+2868729553,6904,Compatibility with Python 3.13,geethu910,closed,2025-02-21T11:11:03+00:00,2025-02-21T11:11:15+00:00,1,0.0
+2867600419,6903,Help with POST request with XML payload,Vathsan,closed,2025-02-21T00:39:53+00:00,2025-02-21T00:40:05+00:00,1,0.0
+2865051128,6902,support http3 quic,ghost,closed,2025-02-20T04:33:30+00:00,2025-02-20T04:33:42+00:00,1,0.0
+2863141101,6900,Unable to request a private URL endpoint with custom SNI and self-signed CA when the proxy is set,bughandler,open,2025-02-19T12:07:21+00:00,,0,
+2856176807,6896,Regenerating tests/certs/ with OpenSSL >= 3.2.0 causes test failures,cjwatson,closed,2025-02-16T15:51:42+00:00,2025-02-17T12:40:21+00:00,5,0.0
+2854007933,6894,timeout on requests.get is not working,chpurna,closed,2025-02-14T15:28:16+00:00,2025-02-14T15:38:51+00:00,1,0.0
+2848118510,6893,Issue with SSL verification using self-signed certificate in version 2.32.3,suaveolent,closed,2025-02-12T12:38:39+00:00,2025-02-12T19:54:09+00:00,2,0.0
+2848110391,6892,Issue with SSL verification using self-signed certificate in version 2.32.3,suaveolent,closed,2025-02-12T12:35:34+00:00,2025-02-12T12:35:43+00:00,1,0.0
+2846042981,6890,Incorrect Handling of Escaped Quotes in Cookie Values,Konano,open,2025-02-11T17:30:11+00:00,,2,
+2839197310,6888,"Importing requests will very rarely, throw a regex error.",innateessence,closed,2025-02-07T22:20:50+00:00,2025-02-08T13:54:11+00:00,12,0.0
+2832866427,6887,Automatically retry idempotent requests,m-aciek,closed,2025-02-05T12:49:30+00:00,2025-02-05T12:49:40+00:00,1,0.0
+2831396617,6886,requests.Session is not properly applying SSL Verification default,rbsamoht,closed,2025-02-04T22:06:47+00:00,2025-02-05T00:47:46+00:00,1,0.0
+2830975306,6885,Unexpected `SSLEOFError` when Receiving Redirect (307) Response with Large Data Payload,Nahemah1022,open,2025-02-04T18:16:05+00:00,,3,
+2825353475,6878,Question: would a patch deferring the creation of the pre-loaded SSLContext be accepted for faster startup?,ichard26,closed,2025-02-01T18:18:28+00:00,2025-02-01T18:26:04+00:00,1,0.0
+2823904438,6877,List of documented exceptions doesn't match reality / unused `URLRequired` exception,The-Compiler,open,2025-01-31T16:15:01+00:00,,4,
+2811830810,6874,Async requests through aget/apost/… methods,c4ffein,closed,2025-01-26T22:54:29+00:00,2025-01-26T22:54:41+00:00,1,0.0
+2793520011,6872,Requests v2.32.0-v2.32.3 caused a segmentation fault with multiple simultaneous requests with a certificate.,alloni,closed,2025-01-16T18:54:19+00:00,2025-01-28T18:47:37+00:00,5,11.0
+2788894297,6871,"""I use the same proxy for requests to 300 websites from china, and httpx and requests behave completely differently.""",wjsw1781,closed,2025-01-15T05:46:49+00:00,2025-01-20T13:15:31+00:00,2,5.0
+2781740701,6869,Please add support for the `QUERY` HTTP method,gdubicki,closed,2025-01-11T10:01:05+00:00,2025-01-11T10:01:19+00:00,2,0.0
+2779161829,6868,`import requests` intermittently fails on windows server 2022,AY1uZwIcJzKhaGywovQP,open,2025-01-10T02:55:11+00:00,,3,
+2770686043,6867,"Problem Error Download failed : HTTPSConnectionPool(host='swcdn.apple.com',port=443): Read timed out. Opencore legacy patcher 2.2.0",DJPAT26,closed,2025-01-06T13:40:01+00:00,2025-01-06T13:40:12+00:00,1,0.0
+2757901970,6862,Timeout Issue When Scraping Emails from Multiple URLs Using Python requests,mominurr,closed,2024-12-24T14:57:57+00:00,2024-12-24T15:36:29+00:00,1,0.0
+2748394944,6860,"""No address associated with hostname"" when querying IPv6 hosts",ThePirateWhoSmellsOfSunflowers,closed,2024-12-18T17:36:53+00:00,2024-12-22T22:41:18+00:00,4,4.0
+2743511913,6859,Documentation: Session docstring for verify attribute should note that it supports a string value.,muscovite,open,2024-12-16T22:20:10+00:00,,2,
+2741775749,6858,Unable to remove default content-length header field,yazigegeda,closed,2024-12-16T09:06:34+00:00,2024-12-16T09:06:46+00:00,1,0.0
+2740422329,6856,HTTP/2,3052,closed,2024-12-15T08:59:44+00:00,2025-01-15T15:12:24+00:00,4,31.0
+2739269541,6855,Response history is wrong ,bucknerns,closed,2024-12-13T21:57:00+00:00,2024-12-13T22:24:45+00:00,1,0.0
+2737017132,6854,"slowness when writing response text to file, working in one environment but not the other",hamiltonhall,closed,2024-12-12T22:43:46+00:00,2024-12-12T22:43:57+00:00,1,0.0
+2719927829,6838,v 2.32.3 sends multiple requests,MikoBie,closed,2024-12-05T09:59:06+00:00,2024-12-06T16:00:54+00:00,10,1.0
+2703928283,6835,why requests.session doesn't send stored cookie?,5er9e1,closed,2024-11-29T05:23:55+00:00,2024-11-29T14:28:12+00:00,1,0.0
+2699732478,6834,multipart response preserve carriage return linefeed pairs,rimmartin,closed,2024-11-27T20:34:35+00:00,2024-11-27T20:34:46+00:00,1,0.0
+2692199184,6833,Lack of respect for questions and support requests,rfc-st,closed,2024-11-25T20:46:53+00:00,2024-11-26T00:49:23+00:00,2,0.0
