@@ -1,0 +1,101 @@
+sha,author,email,date,message
+420d16bc7ef326f7b65f90e4644adc0f6a0e1d44,Nate Prewitt,nate.prewitt@gmail.com,2025-09-09T09:00:19+00:00,Merge pull request #7026 from psf/dependabot/github_actions/actions/setup-python-6.0.0
+3c8decb92fb9062cac4bdd12d6c0d32fb3a2d119,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,2025-09-09T00:09:47+00:00,Bump actions/setup-python from 5.6.0 to 6.0.0
+5a270e2a95cdf84e746f26face11efdda3aa0127,Nate Prewitt,nate.prewitt@gmail.com,2025-09-09T00:08:49+00:00,Merge pull request #7025 from psf/dependabot/github_actions/pypa/gh-action-pypi-publish-1.13.0
+7d8df1df573a01f20a80994685e9f6c375f9c63f,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,2025-09-08T16:18:37+00:00,Bump pypa/gh-action-pypi-publish from 1.12.4 to 1.13.0
+1c49660b84c88eeb2695796ce4a68903c00e00c5,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,2025-09-02T02:56:17+00:00,Bump github/codeql-action from 3.29.0 to 3.30.0
+b25c87d7cb8d6a18a37fa12442b5f883f9e41741,Nate Prewitt,nate.prewitt@gmail.com,2025-08-18T20:23:20+00:00,v2.32.5
+131e506079d97606e4214cc4d87b780ac478de7a,Nate Prewitt,nate.prewitt@gmail.com,2025-08-11T22:32:16+00:00,Merge pull request #7010 from psf/dependabot/github_actions/actions/checkout-5.0.0
+b336cb2bc616a63a93c6470c558fc1f576b77f90,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,2025-08-11T22:15:22+00:00,Bump actions/checkout from 4.2.0 to 5.0.0
+46e939b5525d9c72b677340985582b04b128478a,Grant Birkinbine,grant.birkinbine@gmail.com,2025-08-06T05:44:36+00:00,Update publish workflow to use `artifact-id` instead of `name`
+4b9c546aa3f35fca6ca24945376fe7462bb007c4,Nate Prewitt,nate.prewitt@gmail.com,2025-07-28T19:09:42+00:00,Merge pull request #6999 from psf/dependabot/github_actions/step-security/harden-runner-2.13.0
+7618dbef01d333f23ba4b9c4d97397b06dd89cb6,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,2025-07-28T19:01:25+00:00,Bump step-security/harden-runner from 2.12.0 to 2.13.0
+2edca11103c1c27dd8b572dab544b7f48cf3b446,Nate Prewitt,nate.prewitt@gmail.com,2025-07-25T20:42:15+00:00,Add support for Python 3.14 and drop support for Python 3.8 (#6993)
+fec96cd5976ad763e45bac9a033d62cca1877a00,Abhishek Jha,abhi_jha1995@rediffmail.com,2025-07-18T16:24:31+00:00,Update Makefile rules (#6996)
+d58d8aa2f45c3575268d6d5250745ef69f9cf8b7,Quaylyn Rimer,31830590+killerdevildog@users.noreply.github.com,2025-07-18T02:09:19+00:00,docs: clarify timeout parameter uses seconds in Session.request (#6994)
+91a3eabd3dcc4d7f36dd8249e4777a90ef9b4305,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,2025-06-16T17:38:11+00:00,Bump github/codeql-action from 3.28.5 to 3.29.0
+90fee0876aea97c639b3bf698d83a12876d2f160,Nate Prewitt,nate.prewitt@gmail.com,2025-06-13T16:42:08+00:00,Revert caching a default SSLContext (#6767)
+8ff173b186f135670879db9fbe1e68a6b5209c89,AHMAD FAIZ,40581230+anodo123@users.noreply.github.com,2024-07-28T12:44:06+00:00,Clarify error description in cloning instructions
+3f07f990ac74f1e1691ba17ef8c14007f05846ab,Jonas Fonseca,jonas.fonseca@gmail.com,2024-10-04T13:18:45+00:00,Fix typo in documentation for verify
+e57b5bf05c4e39281b5547b1bd05a5074dc96df3,Ian Stapleton Cordasco,graffatcolmingov@gmail.com,2025-06-10T02:15:28+00:00,Add Trusted Publishing Release Workflow
+021dc729f0b71a3030cefdbec7fb57a0e80a6cfd,Ian Stapleton Cordasco,graffatcolmingov@gmail.com,2025-06-09T16:26:42+00:00,Polish up release tooling for last manual release
+821770e822a20a21b207b3907ea83878bda1d396,Ian Stapleton Cordasco,graffatcolmingov@gmail.com,2025-06-09T15:21:47+00:00,Bump version and add release notes for v2.32.4
+59f8aa2adf1d3d06bcbf7ce6b13743a1639a5401,Piotr Szlazak,11884243+pszlazak@users.noreply.github.com,2025-06-08T17:47:55+00:00,Add netrc file search information to authentication documentation (#6876)
+5b4b64c3467fd7a3c03f91ee641aaa348b6bed3b,Arthur Woimbée,arthur.woimbee@gmail.com,2025-06-05T14:55:33+00:00,Add more tests to prevent regression of CVE 2024 47081
+7bc45877a86192af77645e156eb3744f95b47dae,danigm,daniel.garcia@suse.com,2025-06-05T11:21:46+00:00,Add new test to check netrc auth leak (#6962)
+96ba401c1296ab1dda74a2365ef36d88f7d144ef,Nate Prewitt,nate.prewitt@gmail.com,2024-09-25T15:03:20+00:00,Only use hostname to do netrc lookup instead of netloc
+7341690e842a23cf18ded0abd9229765fa88c4e2,Nate Prewitt,nate.prewitt@gmail.com,2025-06-01T18:07:17+00:00,Merge pull request #6951 from tswast/patch-1
+6716d7c9f29df636643fa2489f98890216525cb0,Tim Sweña,swast@google.com,2025-06-01T14:03:51+00:00,remove links
+a7e1c745dc23c18e836febd672416ed0c5d8d8ae,Ian Stapleton Cordasco,graffatcolmingov@gmail.com,2025-05-31T16:59:51+00:00,Update docs/conf.py
+c799b8167a13416833ad3b4f3298261a477e826f,Tim Sweña (Swast),tswast@gmail.com,2025-05-21T16:08:05+00:00,docs: fix dead links to kenreitz.org
+c65c780849563c891f35ffc98d3198b71011c012,Robin,167366979+allrob23@users.noreply.github.com,2025-05-03T16:39:14+00:00,Add two more tests exercising the adapter (#6936)
+579cd9f23319ebc65b71613f59e2b7b37d67276d,Nate Prewitt,nate.prewitt@gmail.com,2025-03-31T17:43:23+00:00,Drop pypy 3.9 and add pypy 3.11 support
+c54d0347e24f38b40881f1e0a8bfc9fbce583298,Nate Prewitt,nate.prewitt@gmail.com,2025-04-28T17:36:20+00:00,Merge pull request #6939 from psf/dependabot/github_actions/actions/setup-python-5.6.0
+991f05dcd922b1c4036067cb0473abc17db3c806,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,2025-04-28T17:28:05+00:00,Bump actions/setup-python from 5.5.0 to 5.6.0
+4ce9520a1cfa2e91abe5a923498f49e1fdb2e4ee,Robin,167366979+allrob23@users.noreply.github.com,2025-04-23T12:44:05+00:00,Update lint workflow to ubuntu-24.04
+42a1dd640ca42ccfc22b00ba29d1bb0c3e51c9d2,Ian Stapleton Cordasco,graffatcolmingov@gmail.com,2025-04-16T02:46:50+00:00,Merge pull request #6924 from RichieB2B/rfc5280
+c4c8e20289ab82edad55d2fc07b42cbf08ae1441,Nate Prewitt,nate.prewitt@gmail.com,2025-03-31T16:43:07+00:00,Merge pull request #6925 from psf/dependabot/github_actions/actions/setup-python-5.5.0
+a5cb4284e18555d9e179f309356178410dbfdaf1,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,2025-03-31T16:31:10+00:00,Bump actions/setup-python from 5.4.0 to 5.5.0
+2019450b43511289d45c6b3e7376f2813e1c27b4,Richard van den Berg,richard@vdberg.org,2025-03-29T13:53:45+00:00,Add key usage extension to test ca.crt
+1764cc938efc3cc9720188dfa6c3852c45211aa0,Nate Prewitt,nate.prewitt@gmail.com,2025-02-20T18:43:13+00:00,Merge pull request #6899 from duzhuoshanwai/main
+e946665c5953ab40e6dbb29cc8c496ee625fdadd,duzhuoshanwai,65448395+duzhuoshanwai@users.noreply.github.com,2025-02-19T02:05:28+00:00,Update advanced.rst
+8ba805fa93c3f0fc958b48bc136ed565d7c82872,Ian Stapleton Cordasco,graffatcolmingov@gmail.com,2025-02-17T12:40:19+00:00,Merge pull request #6897 from cjwatson/fix-test-certificates
+9ebebdef98a6aacfbedcf2ca61ba0eaecc2563f4,Colin Watson,cjwatson@debian.org,2025-02-17T00:41:30+00:00,Regenerate test certificates
+507409661335bd3dd8a7e39f04d07b42e519becc,Colin Watson,cjwatson@debian.org,2025-02-17T00:39:07+00:00,Add CA constraint to test CA
+1b7c37ef4e3db003cc52f09da9ab6b947054e245,Nate Prewitt,nate.prewitt@gmail.com,2025-02-13T16:49:49+00:00,Merge pull request #6529 from anupam-arista/patch-1
+5d31ddbf7b3f512dd3c61952d2c16e980a2b7dc1,anupam-arista,118899211+anupam-arista@users.noreply.github.com,2025-02-12T12:28:07+00:00,Update src/requests/models.py
+a2fd25ff34b66ef71b54dfc90e09a4e4152357f6,anupam-arista,118899211+anupam-arista@users.noreply.github.com,2025-02-11T15:58:59+00:00,Update models.py
+d96f9982a276c73ab078b255c94397cf4d7f6cc2,anupam-arista,118899211+anupam-arista@users.noreply.github.com,2025-02-11T15:55:29+00:00,Update src/requests/models.py
+b25f2b5ec2a113d4b3a1e6311f617a015f4155f3,anupam-arista,118899211+anupam-arista@users.noreply.github.com,2025-02-11T02:19:26+00:00,Merge branch 'psf:main' into patch-1
+f761e74a4d50d2e88d9e30e660494b36c9d630f8,Nate Prewitt,nate.prewitt@gmail.com,2025-02-10T21:13:26+00:00,Merge pull request #6880 from jakobheine/td/remove-urlrequired-from-docs
+f2a6ae5e3267f64c47059fd64e43c02e0891f523,Nate Prewitt,nate.prewitt@gmail.com,2025-02-03T16:58:57+00:00,Merge pull request #6883 from psf/dependabot/github_actions/actions/setup-python-5.4.0
+11f63a330bc7b9026086e3d259f400f9c702b542,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,2025-02-03T16:27:40+00:00,Bump actions/setup-python from 5.3.0 to 5.4.0
+e361622fae03f08b16c48a0a1414a718d9d45d25,jakobheine,me@jakobheine.de,2025-02-01T19:42:06+00:00,docs(exceptions): Remove unused exception URLRequired from documentation
+fe0583ba49cf162e1a7fe35ae05de6a62b8372fa,Nate Prewitt,nate.prewitt@gmail.com,2025-01-27T17:39:35+00:00,Merge pull request #6875 from psf/dependabot/github_actions/github/codeql-action-3.28.5
+8c36da656df15111c423975381f523e0b9db7326,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,2025-01-27T16:56:12+00:00,Bump github/codeql-action from 3.27.0 to 3.28.5
+b653d80ded3680dc3780557ded01e23074f7e6a4,anupam-arista,118899211+anupam-arista@users.noreply.github.com,2024-12-12T23:38:45+00:00,Merge branch 'psf:main' into patch-1
+23540c93cac97c763fe59e843a08fa2825aa80fd,Ian Stapleton Cordasco,graffatcolmingov@gmail.com,2024-11-10T16:18:36+00:00,Merge pull request #6824 from psf/nateprewitt-patch-1
+ad959acfcfa77c3d9360a5f62df4a4789eed0fb3,Nate Prewitt,nate.prewitt@gmail.com,2024-11-10T05:50:30+00:00,Remove old macOS runners
+a6cf27a77f6f5dd6116096e95c16e7c1a616b419,Nate Prewitt,nate.prewitt@gmail.com,2024-11-02T20:13:02+00:00,Update vulnerability disclosure process (#6820)
+ed0b1b58023276adc66615f3af9bee22d0d16e1b,Nate Prewitt,nate.prewitt@gmail.com,2024-10-28T16:24:23+00:00,Merge pull request #6817 from psf/dependabot/github_actions/actions/setup-python-5.3.0
+1f16cffa436ca8635a4660199a055c6beb171a07,Nate Prewitt,nate.prewitt@gmail.com,2024-10-28T16:24:12+00:00,Merge pull request #6818 from psf/dependabot/github_actions/github/codeql-action-3.27.0
+9787d0c09c0d771b97cb5d333f71e988b43d9ffc,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,2024-10-28T16:05:20+00:00,Bump github/codeql-action from 3.26.0 to 3.27.0
+26664fa57853e97717b0a72244d35eeadaac48d9,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,2024-10-28T16:05:11+00:00,Bump actions/setup-python from 5.2.0 to 5.3.0
+7335bbf480adc8e6aa88feb2022797a549a00aa3,Nate Prewitt,nate.prewitt@gmail.com,2024-09-30T17:32:21+00:00,Merge pull request #6803 from psf/dependabot/github_actions/actions/checkout-4.2.0
+0bff2d94e624651d02756e37e50af3cc1569abcf,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,2024-09-30T16:34:20+00:00,Bump actions/checkout from 4.1.0 to 4.2.0
+1ae6fc3137a11e11565ed22436aa1e77277ac98c,Ian Stapleton Cordasco,graffatcolmingov@gmail.com,2024-09-19T11:19:03+00:00,Merge pull request #6802 from graingert/3.13
+5984296b6a4cea1b20a6747127c335d95595e7d9,Thomas Grainger,tagrain@gmail.com,2024-09-18T18:40:02+00:00,Update tox.ini
+f519bbae3346b4bf0ff866e0659b7efbcf016eb1,Thomas Grainger,tagrain@gmail.com,2024-09-18T18:14:19+00:00,add trove classifier for 3.13
+314e7c9c701ddbeb6c26ae357a132045709d47f1,Thomas Grainger,tagrain@gmail.com,2024-09-18T15:36:43+00:00,upgrade to pytest-httpbin 2.1.0 final
+92f10cec5b3223e90c186b7a04306564cde050dc,Thomas Grainger,tagrain@gmail.com,2024-09-18T14:04:53+00:00,upgrade to pytest-httpbin 2.1.0rc1
+83e67c448567cb78490e709925cc335567f656dd,Thomas Grainger,tagrain@gmail.com,2024-09-18T14:04:08+00:00,use allow-prereleases: true instead of 3.13-dev
+0f5ef1be8cb33a28dec67728b8c7220b9c58d366,Thomas Grainger,tagrain@gmail.com,2024-09-18T14:03:08+00:00,Merge branch 'main' of github.com:psf/requests into 3.13
+f12ccbef6d6b95564da8d22e280d28c39d53f0e9,Nate Prewitt,nate.prewitt@gmail.com,2024-09-02T17:37:44+00:00,Merge pull request #6797 from psf/dependabot/github_actions/actions/setup-python-5.2.0
+173890a48e9f064f0c034edf45109279d1d90a94,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,2024-09-02T16:56:26+00:00,Bump actions/setup-python from 5.1.0 to 5.2.0
+a3ce6f007597f14029e6b6f54676c34196aa050e,Nate Prewitt,nate.prewitt@gmail.com,2024-08-12T16:54:11+00:00,Merge pull request #6787 from psf/dependabot/github_actions/github/codeql-action-3.26.0
+877892e67e22e25bd3cb0dec780bf45c0e67026e,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,2024-08-12T16:23:16+00:00,Bump github/codeql-action from 3.25.0 to 3.26.0
+79b74ef704dc0d804937c0d015c5e9c3b02b79bd,Nate Prewitt,nate.prewitt@gmail.com,2024-07-30T01:44:13+00:00,Merge pull request #6757 from nateprewitt/urllib-1.x-tests
+15e1f17bb6f3f978787dd23da0268388148bc3d5,Branch Vincent,branchevincent@gmail.com,2024-07-29T03:49:48+00:00,remove setuptools test command
+01353d3b4afe3afa838f8f5c08e5f30a5b50cb05,Nate Prewitt,nate.prewitt@gmail.com,2024-07-23T11:28:03+00:00,Invert major version check
+4e383642a9ebb82a67eaeed199d0fbbb31991e3c,Nate Prewitt,nate.prewitt@gmail.com,2024-07-18T16:43:49+00:00,Add conditional string encoding based on urllib3 major version
+f8aa36b92d95e6d2f133489f39f9d5c2412f1bd9,Nate Prewitt,nate.prewitt@gmail.com,2024-07-02T01:08:04+00:00,Test on urllib3 1.26.x
+06d2a384418ed86effa2d804d32d4705b91c37eb,anupam-arista,118899211+anupam-arista@users.noreply.github.com,2024-07-01T05:16:41+00:00,Merge branch 'psf:main' into patch-1
+0e322af87745eff34caffe4df68456ebc20d9068,Nate Prewitt,nate.prewitt@gmail.com,2024-05-29T15:36:10+00:00,v2.32.3
+e18879932287c2bf4bcee4ddf6ccb8a69b6fc656,Nate Prewitt,nate.prewitt@gmail.com,2024-05-29T15:23:39+00:00,Don't create default SSLContext if ssl module isn't present (#6724)
+145b5399486b56e00250204f033441f3fdf2f3c9,Nate Prewitt,nate.prewitt@gmail.com,2024-05-24T21:37:06+00:00,Merge pull request #6716 from sigmavirus24/bug/6715
+b1d73ddb509a3a2d3e10744e85f9cdebdbde90f0,Nate Prewitt,nate.prewitt@gmail.com,2024-05-24T16:00:52+00:00,Don't use default SSLContext with custom poolmanager kwargs
+6badbac6e0d6b5a53872f26401761ad37a9002b8,Nate Prewitt,nate.prewitt@gmail.com,2024-05-22T20:43:57+00:00,Update HISTORY.md
+2e1452234d8a3240aa27fc5fa5db93d53d799c25,Nate Prewitt,nate.prewitt@gmail.com,2024-05-23T18:51:07+00:00,Start testing on 3.13 beta
+a62a2d35d918baa8e793f7aa4fb41527644dfca5,Ian Stapleton Cordasco,graffatcolmingov@gmail.com,2024-05-22T11:51:48+00:00,Allow for overriding of specific pool key params
+88dce9d854797c05d0ff296b70e0430535ef8aaf,Nate Prewitt,nate.prewitt@gmail.com,2024-05-21T18:49:22+00:00,v2.32.2
+c98e4d133ef29c46a9b68cd783087218a8075e05,Nate Prewitt,nate.prewitt@gmail.com,2024-05-21T16:41:18+00:00,Merge pull request #6710 from nateprewitt/api_rename
+92075b330a30b9883f466a43d3f7566ab849f91b,Nate Prewitt,nate.prewitt@gmail.com,2024-05-21T16:28:30+00:00,Add deprecation warning
+aa1461b68aa73e2f6ec0e78c8853b635c76fd099,Nate Prewitt,nate.prewitt@gmail.com,2024-05-21T12:40:52+00:00,Move _get_connection to get_connection_with_tls_context
+970e8cec988421bd43da57350723b05c8ce8dc7e,Nate Prewitt,nate.prewitt@gmail.com,2024-05-20T22:02:29+00:00,v2.32.1
+d6ebc4a2f1f68b7e355fb7e4dd5ffc0845547f9f,Nate Prewitt,nate.prewitt@gmail.com,2024-05-20T15:46:49+00:00,v2.32.0
+9a40d1277807f0a4f26c9a37eea8ec90faa8aadc,agubelu,agubelu@users.noreply.github.com,2024-05-15T20:07:26+00:00,Avoid reloading root certificates to improve concurrent performance (#6667)
+0c030f78d24f29a459dbf39b28b4cc765e2153d7,Ian Stapleton Cordasco,graffatcolmingov@gmail.com,2024-05-15T00:15:19+00:00,Merge pull request #6702 from nateprewitt/no_char_detection
+555b870eb19d497ddb67042645420083ec8efb02,Nate Prewitt,nate.prewitt@gmail.com,2024-05-14T21:59:26+00:00,Allow character detection dependencies to be optional in post-packaging steps
+d6dded3f00afcf56a7e866cb0732799045301eb0,Ian Stapleton Cordasco,graffatcolmingov@gmail.com,2024-05-12T21:33:47+00:00,Merge pull request #6700 from franekmagiera/update-redirect-to-invalid-uri-test
+bf24b7d8d17da34be720c19e5978b2d3bf94a53b,franekmagiera,framagie@gmail.com,2024-05-12T20:08:24+00:00,Use an invalid URI that will not cause httpbin to throw 500
+2d5f54779ad174035c5437b3b3c1146b0eaf60fe,Nate Prewitt,nate.prewitt@gmail.com,2024-04-23T17:50:19+00:00,Pin 3.8 and 3.9 runners back to macos-13 (#6688)
